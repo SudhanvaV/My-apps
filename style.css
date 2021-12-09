@@ -1,0 +1,33 @@
+body {
+    text-align: center
+}
+h1{
+    font-size: 50px;
+    font-family : 'Oswald', sans-serif;
+}
+#Apps{
+    background-color: cornflowerblue;
+    height: 800px;
+    width : 100%;
+}
+#Games{
+    background-color: brown;
+    height: 800px;
+    width : 100%;
+}
+#Chat-bot{
+    background-color: forestgreen;
+    height: 800px;
+    width : 100%;
+}
+.img{
+    width: 500px;
+    height: 500px;
+ transition: transform 
+}
+img:hover{
+    transition: transform .2s;
+ }
+img:hover{
+     transform: scale(0.9); 
+}
